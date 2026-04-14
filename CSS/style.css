@@ -167,6 +167,18 @@ nav a:hover {
     justify-content: center;
 }
 
+.social-links {
+    text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.contact {
+    text-align: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
 .contact-buttons {
     display: flex;
     justify-content: center;
