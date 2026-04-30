@@ -18,11 +18,13 @@ h1 {
 }
 h2 {
     font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
 h3 {
     font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img {
@@ -154,11 +156,13 @@ nav a:hover {
 .work-title {
     text-align: center;
     justify-content: center;
+    border-bottom: #000000 solid 1px;
 }
 
 .divider-text {
     text-align: center;
     justify-content: center;
+    padding: 0 2rem .5rem;
     
 }
 
@@ -189,6 +193,14 @@ nav a:hover {
     text-align: center;
     justify-content: center;
     border-top: #000000 solid 1px;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    padding: 0 2rem .5rem;
 }
 
 /* Desktop Layout */
